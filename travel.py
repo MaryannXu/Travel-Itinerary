@@ -9,7 +9,6 @@ CORS(app)
 
 # Set OpenAI API key
 #openai.api_key = os.getenv("OPENAI_API_KEY") # using environment var to keep API key secret
-openai.api_key = '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'
 
 @app.route('/')
 def home():
